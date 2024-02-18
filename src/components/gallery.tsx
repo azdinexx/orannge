@@ -16,7 +16,7 @@ function Gallery() {
             />
             <div className='text-center relative z-10 w-full'>
               <h2 className='text-2xl text-gray-900 font-medium title-font mb-2'>
-                World's Best Channels
+                World&apos;s Best Channels
               </h2>
               <p className='leading-relaxed'>
                 Skateboard +1 mustache fixie paleo lumbersexual.
