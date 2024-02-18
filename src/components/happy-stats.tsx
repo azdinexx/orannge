@@ -6,7 +6,7 @@ function HappyStats() {
       <div className='container px-5 py-24 mx-auto'>
         <div className='flex flex-col text-center w-full mb-20'>
           <h1 className='sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900'>
-            Master Cleanse Reliac Heirloom
+            Our Stats
           </h1>
           <p className='lg:w-2/3 mx-auto leading-relaxed text-base'>
             Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
@@ -74,7 +74,7 @@ function HappyStats() {
               <h2 className='title-font font-medium text-3xl text-gray-900'>
                 74
               </h2>
-              <p className='leading-relaxed'>Files</p>
+              <p className='leading-relaxed'>Streams</p>
             </div>
           </div>
           <div className='p-4 md:w-1/4 sm:w-1/2 w-full'>
