@@ -4,19 +4,39 @@ import Layout from './layout';
 
 function Header() {
   return (
-    <header className='p-4 bg-orange-400 flex  justify-between items-end uppercase flex-wrap'>
-      <Layout className='flex  justify-between items-end uppercase flex-wrap '>
-        <Image src='/logo.png' height={60} width={60} alt='orannge logo' />
-        <ul className='flex gap-5 text-white flex-wrap'>
-          <li>Features</li>
-          <li>Amazing Tools</li>
-          <li>Screenshot</li>
-          <li>Player</li>
-          <li>Video</li>
-          <li>More to Know</li>
-          <li>Faq</li>
-        </ul>
-      </Layout>
+    <header className='text-gray-600 body-font'>
+      <div className='container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center'>
+        <a className='flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0'>
+          <Image
+            alt='logo'
+            className='w-10 h-10 rounded-full'
+            src='/logo.png'
+            width={40}
+            height={40}
+          />
+          <span className='ml-3 text-xl'>Tailblocks</span>
+        </a>
+        <nav className='md:ml-auto flex flex-wrap items-center text-base justify-center'>
+          <a className='mr-5 hover:text-gray-900'>First Link</a>
+          <a className='mr-5 hover:text-gray-900'>Second Link</a>
+          <a className='mr-5 hover:text-gray-900'>Third Link</a>
+          <a className='mr-5 hover:text-gray-900'>Fourth Link</a>
+        </nav>
+        <button className='inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0'>
+          Button
+          <svg
+            fill='none'
+            stroke='currentColor'
+            stroke-linecap='round'
+            stroke-linejoin='round'
+            stroke-width='2'
+            className='w-4 h-4 ml-1'
+            viewBox='0 0 24 24'
+          >
+            <path d='M5 12h14M12 5l7 7-7 7'></path>
+          </svg>
+        </button>
+      </div>
     </header>
   );
 }
