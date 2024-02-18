@@ -7,7 +7,7 @@ import Gallery from '@/components/gallery';
 
 export default function Home() {
   return (
-    <main>
+    <main className=' scroll-smooth'>
       <Hero />
       <HappyStats />
       <Gallery />

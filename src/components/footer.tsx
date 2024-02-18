@@ -104,10 +104,10 @@ function Footer() {
               width={40}
               height={40}
             />
-            <span className='ml-3 text-xl'>Tailblocks</span>
+            <span className='ml-3 text-xl'>Orannge</span>
           </a>
           <p className='text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4'>
-            © 2020 Tailblocks —
+            © 2024 Orannge —
             <a
               href='https://twitter.com/knyttneve'
               rel='noopener noreferrer'
